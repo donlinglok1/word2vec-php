@@ -21,7 +21,7 @@ distance (...);
 4. You should also consider changing the path or managing folder permission for security reasons.
 
 ## Demo
-0. Install `docker` and `docker-compose` on your machine.
+0. Install `docker` and `docker-compose` on your machine. https://www.docker.com/get-started
 1. Download this project, go to the project directory and run.
 ```bash
 docker-compose up
