@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  php:
+    build: apache
+    ports:
+    - "8088:80"
+    volumes:
+    - ./var/www/html:/var/www/html
+    restart: on-failure
