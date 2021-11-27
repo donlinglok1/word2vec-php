@@ -2,7 +2,15 @@
 
 This project is basic on google word2vec trunk https://code.google.com/archive/p/word2vec/
 
-## Installation
+## Demo
+0. Install `docker` and `docker-compose` on your machine. https://www.docker.com/get-started
+1. Download this project, go to the project directory and run.
+```bash
+docker-compose up
+```
+2. go to `http://localhost:8088/`, and you should see the result of word2vec.
+
+## Installation (Even work without docker!)
 1. Move the files inside `var/www/html` to your path.
 2. Add below code to your .php file.
 ```php
@@ -19,14 +27,6 @@ distance (...);
 ?>
 ```
 4. You should also consider changing the path or managing folder permission for security reasons.
-
-## Demo
-0. Install `docker` and `docker-compose` on your machine. https://www.docker.com/get-started
-1. Download this project, go to the project directory and run.
-```bash
-docker-compose up
-```
-2. go to `http://localhost:8088/`, and you should see the result of word2vec.
 
 ## Simple
 ### distance
