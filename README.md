@@ -84,4 +84,3 @@ Array
     train ( dirname ( __FILE__ ) . "/google-word2vec-trunk/questions-words.txt" );
 ?>
 ```
-# C-word2vec-php
